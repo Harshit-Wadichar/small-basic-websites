@@ -46,8 +46,8 @@ h3 {
     position: relative;
     height: 300px;
     width: 300px;
-    transform-style: preserve-3d;
     animation: none;
+    transform-style: preserve-3d;
 }
 
 #head, #tail {

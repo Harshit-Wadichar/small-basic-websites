@@ -21,14 +21,17 @@ function toss() {
         coin.style.animation = isHeads ? "spin-heads 3s ease-in-out" : "spin-tails 3s ease-in-out";
     }, 10); // Short delay to reset the animation property
 
+    
     // Update result after the animation completes
     setTimeout(() => {
         if (isHeads) {
             h++;
             headT.innerText = `${h}`;
+            coin.style.transform = "rotateY(0deg)"; // Ensure it ends on heads
         } else {
             t++;
             tailT.innerText = `${t}`;
+            coin.style.transform = "rotateY(180deg)"; // Ensure it ends on tails
         }
 
         // Re-enable button after animation
@@ -45,4 +48,4 @@ function reset1(){
 
 // Add event listener to the button
 button.addEventListener("click", toss);
-reset.addEventListener("click", reset1);
+reset.addEventListener("click", reset1); 
