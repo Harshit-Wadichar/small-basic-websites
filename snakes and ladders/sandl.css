@@ -71,44 +71,44 @@ body {
 }
 #portal1{
  background-color: rgb(231, 113, 39);
- background-image:url(Rps-image/ladder.png);
+ background-image:url(image/ladder.png);
  background-size: cover;
 }
 #snake1{
 background-color: rgb(231, 113, 39);
-background-image: url(Rps-image/snake.png);
+background-image: url(image/snake.png);
 background-size: cover;
 }
 #portal4{
  background-color: rgb(231, 39, 39);
- background-image: url(Rps-image/ladder.png);
+ background-image: url(image/ladder.png);
  background-size: cover;
 }
 #snake2{
 background-color: rgb(39, 231, 52);
-background-image: url(Rps-image/snake.png);
+background-image: url(image/snake.png);
 background-size: cover;
 }
 #portal3{
  background-color: rgb(39, 231, 52);
- background-image: url(Rps-image/ladder.png);
+ background-image: url(image/ladder.png);
  background-size: cover;
 }
 #snake3{
 background-color: rgb(148, 39, 231);
-background-image: url(Rps-image/snake.png);
+background-image: url(image/snake.png);
 background-size: cover;
 }
 #portal2{
  background-color: rgb(148, 39, 231);
- background-image: url(Rps-image/ladder.png);
+ background-image: url(image/ladder.png);
  background-size: cover;
 }
 #portal1, #portal2, #portal3, #portal4 {
   transition: transform 0.3s ease;
 }
 #trophy{
-  background-image:url(Rps-image/trophy.png);
+  background-image:url(image/trophy.png);
   background-size: cover;
 }
 
